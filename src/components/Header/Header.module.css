@@ -1,0 +1,39 @@
+.header {
+    background: black;
+    color : #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 25px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+    padding: 10px;
+}
+.list ul {
+    color : #FFFFFF;
+    margin-right: 20px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.switch {
+    height: 100%;
+    display: flex;
+}
+.current_theme {
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    height: 100%;
+    width: 60px;
+    margin-right: 10px;
+}
+.switch_theme {
+    background: rgba(255,255,255, 0.3);
+    border-radius: 10px;
+    height: 100%;
+    width: 150px;
+}

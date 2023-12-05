@@ -1,0 +1,44 @@
+.post {
+    margin-left: 20px;
+    margin-bottom: 35px;
+    padding: 10px 20px;
+    border-left : 1px solid black;
+    border-top: 1px solid black;
+}
+.post_text {
+    margin-bottom: 15px;
+}
+.post_images {
+    display: flex;
+    flex-wrap: wrap;
+}
+.post_images img {
+    height: 200px;
+    width: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.comments_block{
+    margin-left: 40px;
+}
+.comments_title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.commentator_info {
+    margin-bottom: 15px;
+}
+.commentator_info img {
+    height: 100px;
+    width: 100px;
+}
+.comment {
+    border : 3px solid #706f6f;
+    border-radius: 10px;
+    padding: 10px;
+}
+.comment_title {
+
+}
