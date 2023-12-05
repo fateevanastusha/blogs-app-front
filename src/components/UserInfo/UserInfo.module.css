@@ -1,8 +1,16 @@
 .userInfo {
     width: 300px;
+    color : #FFFFFF;
 }
 .userInfo img {
-    border-radius: 20px;
+    border-radius: 5px;
     width: 100%;
     height: auto;
+}
+.nickName {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.city {
+    font-size: 15px;
 }

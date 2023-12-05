@@ -14,7 +14,6 @@ export const Main = () => {
                 <UserInfo/>
                 <div className={"blog_content"}>
                     <ProfileDescription/>
-                    <CreatePost/>
                     <Posts/>
                 </div>
             </div>
