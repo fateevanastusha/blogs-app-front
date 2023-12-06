@@ -1,14 +1,28 @@
 import React from 'react';
 import './App.css'
 import {Main} from "./pages/Main/Main";
-import {Registration} from "./pages/Registration/Registration";
-import {Login} from "./pages/Login/Login";
+import {Registration} from "./pages/Auth/Registration/Registration";
+import {Login} from "./pages/Auth/Login/Login";
+import {ForgetPassword} from "./pages/Auth/ForgetPassword/ForgetPassword";
+import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
+import {CreatePost} from "./components/CreatePost/CreatePost";
 
 function App() {
   return (
-    <div className={"container"}>
-      <Login/>
-    </div>
+      <Router>
+          <div className={"container"}>
+              <Routes>
+                  <Route path={"/"}>
+                          <Route path={"/"} element={<Navigate to={"/my-blog"} replace/>}/>
+                          <Route path={"/my-blog"} element={<Main/>}/>
+                          <Route path={"/create-post"} element={<CreatePost/>}/>
+                          <Route path={"/registration"} element={<Registration/>}/>
+                          <Route path={"/login"} element={<Login/>}/>
+                          <Route path={"/forget-password"} element={<ForgetPassword/>}/>
+                  </Route>
+              </Routes>
+          </div>
+      </Router>
   );
 }
 

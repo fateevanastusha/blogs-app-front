@@ -1,9 +1,32 @@
 .posts {
     margin-left: 20px;
+
 }
 .title {
     color : #FFFFFF;
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 15px;
+}
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.button img {
+    width: 40px;
+    height: 40px;
+}
+.createPost {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 25px;
+    text-align: right;
+}
+.button:hover {
+    opacity: 0.5;
 }

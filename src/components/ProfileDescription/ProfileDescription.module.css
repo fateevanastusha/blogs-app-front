@@ -1,6 +1,8 @@
 .aboutMe {
-    padding: 10px 20px;
+    margin-left: 20px;
+    padding: 10px 0px;
     margin-bottom: 20px;
+    border-bottom: 3px solid #FFFFFF;
 }
 .title {
     color : #FFFFFF;

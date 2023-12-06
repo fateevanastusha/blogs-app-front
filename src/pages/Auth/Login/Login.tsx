@@ -22,18 +22,14 @@ export const Login = () => {
                         <input className={styles.field} type={"password"}/>
                     </div>
                 </div>
-                {/*<div className={styles.checkBox}>
-                    <input type={"checkbox"}/>
-                    <div className="checkbox__checkmark"></div>
-                    Keep me signed in
-                </div>*/}
                 <div className={styles.checkBox}>
-                    <div className={styles.round}>
-                        <input type="checkbox" checked id="checkbox"/>
-                        <label htmlFor="checkbox"></label>
-                    </div>
-                    Keep me signed in
+                    <label className={styles.containerCheck}> Keep me signed in
+                        <input type="checkbox"/>
+                        <span className={styles.checkmark}></span>
+                    </label>
+                    <div className={styles.forgetPassword}>Forgot password?</div>
                 </div>
+
 
                 <div className={styles.button}>
                     <input type={"button"} className={styles.submit} value={"Sign In"}/>
