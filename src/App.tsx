@@ -7,6 +7,7 @@ import {ForgetPassword} from "./pages/Auth/ForgetPassword/ForgetPassword";
 import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
 import {CreatePost} from "./components/CreatePost/CreatePost";
 import {Welcome} from "./pages/Welcome/Welcome";
+import {ConfirmCode} from "./pages/Auth/ConfirmCode/ConfirmCode";
 
 function App() {
     return (<Router>
@@ -18,6 +19,7 @@ function App() {
                         <Route path={"/my-blog"} element={<Main/>}/>
                         <Route path={"/create-post"} element={<CreatePost/>}/>
                         <Route path={"/registration"} element={<Registration/>}/>
+                        <Route path={"/confirm_code"} element={<ConfirmCode/>}/>
                         <Route path={"/login"} element={<Login/>}/>
                         <Route path={"/forget-password"} element={<ForgetPassword/>}/>
                     </Route>

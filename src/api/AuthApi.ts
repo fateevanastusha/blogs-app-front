@@ -14,8 +14,15 @@ export const AuthApi = createApi({
                 method : "POST",
                 body : data
             })
+        }),
+        confirmation : build.mutation({
+            query : (data) => ({
+                url : "registration-confirmation",
+                method : "POST",
+                body : data
+            })
         })
     })
 })
 
-export const {useRegistrationMutation} = AuthApi;
+export const {useRegistrationMutation, useConfirmationMutation} = AuthApi;

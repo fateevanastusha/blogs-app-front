@@ -1,12 +1,11 @@
 import styles from './Login.module.css'
 import React from "react";
+import {ArrowHeader} from "../../../components/common/ArrowHeader/ArrowHeader";
 
 export const Login = () => {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.header}>
-                <img src={'/backArrow.png'} alt={"back"}/>
-            </div>
+            <ArrowHeader/>
             <div className={styles.container}>
                 <div className={styles.title}>
                     <h1>Welcome back!</h1>
