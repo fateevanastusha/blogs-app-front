@@ -1,8 +1,8 @@
 import styles from './ConfirmCode.module.css'
 import React from "react";
 import {SubmitHandler, useForm} from "react-hook-form";
-import {useConfirmationMutation} from "../../../api/AuthApi";
-import {ArrowHeader} from "../../../components/common/ArrowHeader/ArrowHeader";
+import {useConfirmationMutation} from "../../../../api/AuthApi";
+import {ArrowHeader} from "../../components/ArrowHeader/ArrowHeader";
 
 type Inputs = {
     code : string

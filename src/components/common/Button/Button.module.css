@@ -1,0 +1,28 @@
+.button {
+
+}
+.button input {
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border : 1px solid #8552a4;
+    opacity: 1;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.button input:hover {
+    opacity: 0.5;
+}
+
+.filled {
+    background-color: #8552a4;
+    color : #ffffff;
+}
+
+.not_filled {
+    background-color: transparent;
+    color : #8552a4;
+}

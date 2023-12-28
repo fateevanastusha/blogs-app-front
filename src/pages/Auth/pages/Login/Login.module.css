@@ -1,0 +1,51 @@
+.checkBox {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.forgetPassword {
+    text-decoration: underline;
+}
+
+.round {
+    position: relative;
+    margin-right: 25px;
+}
+
+.containerCheck {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    user-select: none;
+}
+.containerCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.containerCheck:hover input ~ .checkmark {
+    background-color: #dac2ee;
+}
+
+.containerCheck input:checked ~ .checkmark {
+    background-color: #8552a4;
+}
+
+.text {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.text:hover {
+    cursor: pointer;
+}
